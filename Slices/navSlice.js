@@ -14,16 +14,16 @@ export const navSlice = createSlice({
             state.origin = action.payload;
         },
         setDestination: (state, action) => {
-            state.origin = action.payload;
+            state.origin = action.payload;5
         },
         setTravelTimeInformation: (state, action) => {
-            state.orgin = action.payload;
+            state.orgin = action.payload; 
         }
     },
 });
 
 
-export const{ setOrigin, setDestination, setTravelTimeInformation} = navSlice.actions;
+export const{ setOrigin, setDestination, setTravelTimeInformation } = navSlice.actions;
 
 //grab data from Data Layer
 // Selectors
